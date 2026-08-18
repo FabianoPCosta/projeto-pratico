@@ -24,3 +24,21 @@ a legislação for atualizada.
 - O cálculo do prêmio deve refletir automaticamente a alíquota configurada.
 - Alterações na alíquota devem ser registradas com data de vigência, para
   permitir consulta do histórico de mudanças.
+
+  
+## Versionamento Semântico
+
+Este projeto utiliza o [Versionamento Semântico (SemVer)](https://semver.org/lang/pt-BR/)
+para nomear suas versões, seguindo o padrão `MAJOR.MINOR.PATCH` (ex: `1.0.0`).
+
+- **MAJOR**: incrementado quando são feitas alterações incompatíveis com
+  versões anteriores (*breaking changes*), ou seja, mudanças que quebram a
+  compatibilidade com quem já usa o projeto.
+- **MINOR**: incrementado quando novas funcionalidades são adicionadas de
+  forma compatível com versões anteriores, sem quebrar nada que já existia.
+- **PATCH**: incrementado quando são feitas correções de bugs compatíveis
+  com versões anteriores, sem adicionar novas funcionalidades.
+
+Exemplo: a versão `1.0.0` representa a primeira versão estável do projeto.
+Uma correção de bug geraria `1.0.1`; uma nova funcionalidade geraria `1.1.0`;
+uma mudança que quebra compatibilidade geraria `2.0.0`.
