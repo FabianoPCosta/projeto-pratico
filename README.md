@@ -15,3 +15,12 @@ empresa, contemplando as seguintes linhas:
 O sistema passará a calcular o valor do prêmio considerando a alíquota de
 IOF vigente para cada tipo de seguro, permitindo ajustes futuros sempre que
 a legislação for atualizada.
+
+
+### Critérios de aceite
+
+- O sistema deve permitir cadastrar a alíquota de IOF vigente para cada
+  produto (Automóvel, Empresarial e Vida) de forma independente.
+- O cálculo do prêmio deve refletir automaticamente a alíquota configurada.
+- Alterações na alíquota devem ser registradas com data de vigência, para
+  permitir consulta do histórico de mudanças.
